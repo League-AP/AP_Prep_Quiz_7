@@ -1,5 +1,5 @@
 (function() {    var questions = [{
-question: "What factors should be considered when selecting a sorting algorithm?<br><br>I&nbsp;&nbsp;&nbsp;&nbsp; Speed of algorithm<br>II&nbsp;&nbsp;&nbsp;&nbsp;Size of array<br>III&nbsp;&nbsp;&nbsp;&nbsp;Space used by algorithm",
+question: "What factors should be considered when selecting a sorting algorithm?<br><br>I&nbsp;&nbsp;&nbsp;&nbsp; Speed of algorithm<br>II&nbsp;&nbsp;&nbsp;&nbsp;Size of array<br>III&nbsp;&nbsp;&nbsp;&nbsp;Space used by algorithm<br>IV&nbsp;&nbsp;&nbsp;&nbsp;Processor Architechture",
 choices: ["I only", "II only", "I and III only", "I, II, and III only", "I, II, III, and IV"],
 correctAnswer: 3
 }, {
