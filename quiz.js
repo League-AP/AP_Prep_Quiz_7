@@ -8,7 +8,7 @@ choices: ["I only", "II only", "III only", "II and III only", "I, II, and III"],
 correctAnswer: 1
 }, {
 question: "What would be the output produced by the following code?<br><br>System.out.println(“A comment looks like this:\n\\*comment here*\\”);",
-choices: ["A comment looks like this:\n\\*comment here*\\", "A comment looks like this:<br>\*comment here*\", "A comment looks like this:<br>\\*comment here*\\", "A comment looks like this:<br>comment here", "A comment looks like this: \*comment here*\"],
+choices: ["A comment looks like this:\n\\*comment here*\\", "A comment looks like this:<br>\*comment here*\ ", "A comment looks like this:<br>\\*comment here*\\", "A comment looks like this:<br>comment here", "A comment looks like this: \*comment here*\"],
 correctAnswer: 1
 }, {
 question: "Below is the partial declaration of a RaceCar class. <br><br>Public class RaceCar<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;private String sponsor;<br>&nbsp;&nbsp;&nbsp;&nbsp;private int horsePower;<br>&nbsp;&nbsp;&nbsp;&nbsp;private double weight;<br>&nbsp;&nbsp;&nbsp;&nbsp;private int racePosition;<br>&nbsp;&nbsp;&nbsp;&nbsp;private boolean needsPitStop;<br>&nbsp;&nbsp;&nbsp;&nbsp;...<br>}<br><br>Which of the following methods in the RaceCar class would be the best candidate to make static?",
