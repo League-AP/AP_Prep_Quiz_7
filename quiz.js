@@ -11,7 +11,7 @@ question: "What would be the output produced by the following code?<br><br>Syste
 choices: ["A comment looks like this:\\n\\\\*comment here*\\\\", "A comment looks like this:<br>\\*comment here*\\ ", "A comment looks like this:<br>\\\\*comment here*\\\\", "A comment looks like this:<br>comment here", "A comment looks like this: \\*comment here*\\ "],
 correctAnswer: 1
 }, {
-question: "Below is the partial declaration of a RaceCar class. <br><br>Public class RaceCar<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;private String sponsor;<br>&nbsp;&nbsp;&nbsp;&nbsp;private int horsePower;<br>&nbsp;&nbsp;&nbsp;&nbsp;private double weight;<br>&nbsp;&nbsp;&nbsp;&nbsp;private int racePosition;<br>&nbsp;&nbsp;&nbsp;&nbsp;private boolean needsPitStop;<br>&nbsp;&nbsp;&nbsp;&nbsp;...<br>}<br><br>Which of the following methods in the RaceCar class would be the best candidate to make static?",
+question: "Below is the partial declaration of a RaceCar class. <br><br>public class RaceCar<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;private String sponsor;<br>&nbsp;&nbsp;&nbsp;&nbsp;private int horsePower;<br>&nbsp;&nbsp;&nbsp;&nbsp;private double weight;<br>&nbsp;&nbsp;&nbsp;&nbsp;private int racePosition;<br>&nbsp;&nbsp;&nbsp;&nbsp;private boolean needsPitStop;<br>&nbsp;&nbsp;&nbsp;&nbsp;...<br>}<br><br>Which of the following methods in the RaceCar class would be the best candidate to make static?",
 choices: ["go //propels the car forward", "makePitStop //changes tires and refuels the car", "getSponsor //returns race car’s sponsor", "brake //slows the car", "getTrackConditions //returns the road conditions of the race track"],
 correctAnswer: 4
 }, {
