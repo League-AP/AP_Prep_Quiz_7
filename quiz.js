@@ -7,7 +7,7 @@ question: "Consider the three temperature groups along with their given categori
 choices: ["I only", "II only", "III only", "II and III only", "I, II, and III"],
 correctAnswer: 1
 }, {
-question: "What would be the output produced by the following code?<br><br>System.out.println(“A comment looks like this:\n\\\\*comment here*\\\\”);",
+question: "What would be the output produced by the following code?<br><br>System.out.println(“A comment looks like this:\\n\\\\*comment here*\\\\”);",
 choices: ["A comment looks like this:\n\\\\*comment here*\\\\", "A comment looks like this:<br>\\*comment here*\\ ", "A comment looks like this:<br>\\\\*comment here*\\\\", "A comment looks like this:<br>comment here", "A comment looks like this: \\*comment here*\\ "],
 correctAnswer: 1
 }, {
