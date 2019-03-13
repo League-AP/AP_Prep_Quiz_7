@@ -71,7 +71,7 @@ const E = 4;
 questions[qIndex] = new Question();
 questions[qIndex].number=qIndex+1;
 questions[qIndex].type="SING_ANS";
-questions[qIndex].question="When will method <code>whatIsIt</code> cause a stack overflow (i.e., cause computer memory to be exhausted)?<br><br><code>public static int whatIsIt(int x, int y)<br>{<br>&nbsp;&nbsp;&nbsp;if (x &gt; y)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return x * y;<br>&nbsp;&nbsp;&nbsp;else<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return whatIsIt(x - 1, y);<br>}</code><br>";
+questions[qIndex].question="When will method <code>whatIsIt</code> cause a stack overflow (i.e., cause computer memory to be exhausted)?<br><br><pre>public static int whatIsIt(int x, int y)<br>{<br>&nbsp;&nbsp;&nbsp;if (x &gt; y)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return x * y;<br>&nbsp;&nbsp;&nbsp;else<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return whatIsIt(x - 1, y);<br>}</pre><br>";
 
 questions[qIndex].choices[0]="&nbsp;&nbsp;&nbsp;Only when x &lt; y";
 questions[qIndex].choices[1]="&nbsp;&nbsp;&nbsp;Only when x &lt;= y";
@@ -85,7 +85,7 @@ qIndex=qIndex+1;
 questions[qIndex] = new Question();
 questions[qIndex].number=qIndex+1;
 questions[qIndex].type="SING_ANS";
-questions[qIndex].question="Consider the following method.<br><br><code>public static void whatsIt(int n)<br>{<br>&nbsp;&nbsp;&nbsp;if (n > 10)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whatsIt(n / 10);<br>&nbsp;&nbsp;&nbsp;System.out.print(n % 10);<br>}</code><br><br>What will be output as a result of the method call whatsIt(347)?<br>";
+questions[qIndex].question="Consider the following method.<br><br><pre>public static void whatsIt(int n)<br>{<br>&nbsp;&nbsp;&nbsp;if (n > 10)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whatsIt(n / 10);<br>&nbsp;&nbsp;&nbsp;System.out.print(n % 10);<br>}</pre><br><br>What will be output as a result of the method call whatsIt(347)?<br>";
 
 
 questions[qIndex].choices[0]="&nbsp;&nbsp;&nbsp;74";
